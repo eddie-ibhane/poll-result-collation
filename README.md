@@ -3,7 +3,7 @@
 <p>PollResult is a solution to Basic Programming Test for experienced Software Developer built in PHP/Laravel.</p>
 Find the link to the detailed test question below:
 
-https://docs.google.com/document/d/1uHrvN3vExC6MWrcLg06gKH0H1DgfEmrFYbTUJ8Cmcmg/edit#
+https://docs.google.com/document/d/1uHrvN3vExC6MWrcLg06gKH0H1DgfEmrFYbTUJ8Cmcmg/edit# 
 
 ### The database is: bincom_test.sql. Download the Database at: 
 https://drive.google.com/file/d/0B77xAtHK1hd4Ukx6SHpqTkd6TWM/view
