@@ -18,6 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/polling-unit-result', 'PUController@pollingUnits');
+Route::get('/summed-lga-result', 'PUController@summedLGAResult' );
+
 
 Auth::routes();
 
