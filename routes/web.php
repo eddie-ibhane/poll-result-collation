@@ -19,8 +19,11 @@ Route::get('/', function () {
 
 Route::get('/polling-unit-result', 'PUController@pollingUnits');
 Route::get('/summed-lga-result', 'PUController@summedLGAResult' );
+Route::get('/add-pu-result', 'PUController@showAddPUResultForm' );
+Route::get('/ward/get/{lga_id}', 'PUController@getWards');
+Route::post('/add-pu-result', 'PUController@storePUResult');
 
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');

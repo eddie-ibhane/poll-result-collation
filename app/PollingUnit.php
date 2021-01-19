@@ -8,6 +8,7 @@ class PollingUnit extends Model
 {
     protected $table = 'polling_unit';
     protected $primaryKey = 'uniqueid';
+    public $timestamps = false;
     protected $dates = [
         'date_entered'
     ];
