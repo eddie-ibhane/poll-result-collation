@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/polling-unit-result', 'PUController@pollingUnits');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
